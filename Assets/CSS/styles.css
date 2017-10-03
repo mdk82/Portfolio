@@ -1,0 +1,172 @@
+/* colors 
+#39393A - Dark Gray
+#E6E6E6 - Light Gray
+#FF8552 - Coral
+#297373 - Teal
+*/
+
+
+body {
+	background-color: #efeee7;
+	font-style: "Georgia", Times New Roman, Times, serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav a:hover {
+	color: #33658A;
+}
+
+
+h1 {
+	color: white;
+}
+
+
+p {
+	color: black;
+	font-size: larger;
+	padding: 20px;
+}
+
+
+.topnav {
+	position: relative;
+	height: 50px;
+	padding: 30px 150px;
+	color: white;
+	font-size: 40px;
+	background-color: #BCC4DB;
+}
+
+
+.nav {
+	display: inline-block;
+	position: absolute;
+	right: 200px;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.nav a {
+	padding: 10px 28px 0px 0px;
+	color: #E6E6E6;
+	font-weight: normal;
+}
+
+
+#main {
+	position: relative;
+	border-top: 2px solid #39393A;
+	height: 600px;
+	width: 100%;
+	background-color: #E6E6E6;
+}
+
+
+h2 {
+	font-weight: bold;
+	font-size: 35px;
+}
+
+
+.container {
+	position: absolute;
+	border: 2px solid #E1FAF9;
+	top: 35px;
+	right: 580px;
+	height: 500px;
+	width: 600px;
+	padding: 10px 20px 20px 20px;
+	background-color: white;
+	color: #2F4858;
+}
+
+
+.content img {
+	float: left;
+	padding: 10px;
+}
+
+
+hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #E6E6E6;
+    margin: 1em 0;
+    padding-bottom: 10px;
+}
+
+
+.contact {
+	position: relative;
+	border: 2px solid #E1FAF9;
+	padding: 30px 20px 0px 20px;
+	text-align: center;
+	top: 35px;
+	float: right;
+	right: 230px;
+	height: 200px;
+	width: 200px;
+	background-color: white;
+	color: #2F4858;
+}
+
+.contact img {
+	padding: 3px;
+}
+
+
+.contact h2 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+footer {
+	height: 50px;
+	padding: 30px 150px;
+	border-top: 5px solid #39393A;
+	text-align: center;
+	background-color: #BCC4DB;
+	color: white;
+
+}
+
+/* Portfolio Styles */
+
+.portfolio {
+
+}
+
+/* Contact Form Styles */
+
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.message {
+	height: 100px;
+	width: 100%;
+}
+
+input[type=submit] {
+    background-color: #33658A;
+    color: white;
+    padding: 12px 20px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #2F4858;
+}
