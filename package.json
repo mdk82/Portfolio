@@ -1,0 +1,23 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdk82/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdk82/Portfolio/issues"
+  },
+  "homepage": "https://mdk82.github.io/Portfolio",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
